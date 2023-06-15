@@ -207,8 +207,6 @@ class BookPreview {
     }
   }
   
-  customElements.define('book-preview', BookPreview);
-
   const bookPreview = new BookPreview()
 
   data.list.items.addEventListener('click', (event) => {
